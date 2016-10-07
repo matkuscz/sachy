@@ -1,11 +1,13 @@
 import '../assets/stylesheets/base.scss';
 import React, { Component } from 'react';
+import ChessGame from './ChessGame';
 
 const Hello = React.createClass({
   render() {
     return(
       <div>
-        Sachy ...
+        Zdar ...
+        <ChessGame />
       </div>
     )
   }
